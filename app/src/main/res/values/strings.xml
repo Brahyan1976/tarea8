@@ -1,0 +1,10 @@
+<resources>
+    <!-- Otras cadenas existentes... -->
+
+    <string name="event_title">Título del Evento</string>
+    <string name="event_date">Fecha del Evento</string>
+    <string name="event_description">Descripción del Evento</string>
+    <string name="save_event">Guardar Evento</string>
+    <string name="app_name">Nombre de Mi Aplicación</string>
+    <!-- Puedes añadir más cadenas relacionadas con tu aplicación aquí -->
+</resources>

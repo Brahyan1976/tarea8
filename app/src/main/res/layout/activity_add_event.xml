@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AddEventActivity">
+
+    <EditText
+        android:id="@+id/editTextEventTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/event_title"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextEventDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/event_date"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/editTextEventDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/event_description"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/buttonSaveEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save_event"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
